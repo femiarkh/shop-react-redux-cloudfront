@@ -1,9 +1,23 @@
+## The links to CloudFront and S3-website
+
+### Manual deployment
+
+- S3: http://rss-femiarkh-first.s3-website.us-east-2.amazonaws.com/
+- CloudFront: https://d1bofodqcgjttu.cloudfront.net/
+
+### Automated deployment
+
+- S3: http://rss-femiarkh-second.s3-website-us-east-1.amazonaws.com/
+- CloudFront: https://d2uxsq2yxa1sxw.cloudfront.net/
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:  
-You can use NPM instead of YARN (Up to you)  
+In the project directory, you can run:
+You can use NPM instead of YARN (Up to you)
 
 ### `yarn start` OR `npm run start`
 
