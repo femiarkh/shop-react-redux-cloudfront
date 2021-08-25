@@ -10,7 +10,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        My cool Store
+        My Cool Store
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -35,7 +35,7 @@ const MainLayout: React.FC = ({ children }) => {
     <>
       <Header />
       <main>
-        <Container className={classes.container} maxWidth="md">
+        <Container className={classes.container} maxWidth="lg">
           {children!}
         </Container>
       </main>
@@ -46,7 +46,7 @@ const MainLayout: React.FC = ({ children }) => {
           color="textSecondary"
           component="p"
         >
-          Thank you for your purchase!
+          Have a good ride!
         </Typography>
         <Copyright />
       </footer>
