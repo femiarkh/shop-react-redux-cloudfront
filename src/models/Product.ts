@@ -9,7 +9,9 @@ export type Product = {
 };
 
 export const ProductSchema = Yup.object().shape({
-  title: Yup.string().required(),
-  description: Yup.string(),
-  price: Yup.number().required(),
+  title: Yup.string().required().max(32),
+  description: Yup.string().required().max(64),
+  price: Yup.number().required().positive().max(9999),
+  count: Yup.number().required().integer().min(0).max(9999),
+  image: Yup.string().url(),
 });
